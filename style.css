@@ -9,16 +9,17 @@ nav {
   justify-content: space-evenly;
   width: 100vw;
   padding: 10px;
-  background-color: rgb(56, 180, 56);
+  background-color: rgb(177, 173, 173);
 }
 
 nav a:hover {
   height: 100%;
-  background-color: rgb(4, 206, 4);
+  background-color: rgb(205, 202, 202);
 }
 
 a {
   text-decoration: none;
+  color: #10010e;
 }
 
 header {
@@ -26,7 +27,7 @@ header {
   top: 0;
   width: 100vw;
   text-align: center;
-  background-color: green;
+  background-color: gray;
   margin: 0;
   padding: 10px 10 0px 10px;
   overflow: auto;
