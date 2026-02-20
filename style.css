@@ -86,3 +86,9 @@ address {
   color: dimgray;
   margin: 15px;
 }
+
+dialog {
+  top: 130%;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
