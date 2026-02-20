@@ -9,12 +9,12 @@ nav {
   justify-content: space-evenly;
   width: 100vw;
   padding: 10px;
-  background-color: gray;
+  background-color: rgb(56, 180, 56);
 }
 
 nav a:hover {
   height: 100%;
-  background-color: rgb(111, 110, 110);
+  background-color: rgb(4, 206, 4);
 }
 
 a {
@@ -26,7 +26,7 @@ header {
   top: 0;
   width: 100vw;
   text-align: center;
-  background-color: rgb(152, 150, 150);
+  background-color: green;
   margin: 0;
   padding: 10px 10 0px 10px;
   overflow: auto;
@@ -83,12 +83,22 @@ body {
 }
 
 address {
-  color: dimgray;
   margin: 15px;
 }
 
 dialog {
-  top: 130%;
   border-radius: 5px;
   background-color: aquamarine;
+}
+
+footer p {
+  color: black;
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 218, 218);
 }
